@@ -68,7 +68,7 @@ li > a:hover {
 main {
   display: flex;
   flex-direction: row;
-  background-color: lightsteelblue;
+  background-color: black;
   height: 60vh;
 }
 
@@ -111,21 +111,32 @@ main {
 .main-section-details {
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 400px;
-  border: 1px solid red;
 }
 
 h3 {
   text-align: center;
   font-size: 1.75rem;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
-.label {
+.label, .value {
   font-size: 1.25rem;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.01;   
+  color: white;
+}
+
+footer {
+  height: 22.5vh;
+
+  background-image: url("https://image.tmdb.org/t/p/w533_and_h300_bestv2/3cyjYtLWCBE1uvWINHFsFnE8LUK.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px 150px;
+  background-color: black;
 }
 /******************************************
 /* ADDITIONAL STYLES
