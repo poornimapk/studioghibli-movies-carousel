@@ -12,9 +12,59 @@
 /*******************************************/
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
+html {
+  font-size: 62.5%;
+}
 
+header {
+  display: flex;
+  /*  */flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgba(6,94,130);
+  color: white;
+  background-image: url("../img/Studio_Ghibli_logo.svg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
 
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.7rem;
+  letter-spacing: 0.05em;
+  background-image: none;
+  background-color: transparent;
+}
 
+nav {
+  display: flex;
+  flex-direction: column;
+  background-image: none;
+  background-color: transparent;
+}
+
+ul {
+  display: flex;
+  /* justify-content: space-around; */  
+  list-style: none;  
+}
+
+li {
+  margin-left: 10%;
+  width: 10%;
+  flex: 0 0 auto;  
+}
+
+li > a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+li > a:hover {
+  color: lightseagreen;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
