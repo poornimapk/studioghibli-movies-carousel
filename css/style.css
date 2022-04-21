@@ -108,11 +108,17 @@ main {
   background-color: lightblue;
 }
 
+.main-section-outer-details {
+  height: 240px;
+  width: 350px;
+}
+
 .main-section-details {
   display: flex;
   flex-direction: column;
   margin-top: 5%;
   width: 400px;
+  margin-left: 5%;
 }
 
 h3 {
@@ -120,23 +126,39 @@ h3 {
   font-size: 1.75rem;
   font-family: 'Montserrat', sans-serif;
   color: white;
+  display: inline-block;
 }
 
 .label, .value {
+  display: inline;
   font-size: 1.25rem;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.01;   
   color: white;
 }
 
-footer {
-  height: 22.5vh;
+.value {
+  margin-left: 5%;
+}
 
-  background-image: url("https://image.tmdb.org/t/p/w533_and_h300_bestv2/3cyjYtLWCBE1uvWINHFsFnE8LUK.jpg");
+.div-details {
+  margin-bottom: 5%;
+}
+
+footer {
+  height: 25vh;
+
+  /* background-image: url("https://image.tmdb.org/t/p/w533_and_h300_bestv2/3cyjYtLWCBE1uvWINHFsFnE8LUK.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 300px 150px;
+  background-size: 400px 175px; */
   background-color: black;
+}
+
+footer > img {
+  margin-left: 30%;
+  height: max-content;
+  width: max-content;
 }
 /******************************************
 /* ADDITIONAL STYLES
