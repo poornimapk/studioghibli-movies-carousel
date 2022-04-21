@@ -1,0 +1,1 @@
+This website shows all films under studio ghibli banner in a carousel.
