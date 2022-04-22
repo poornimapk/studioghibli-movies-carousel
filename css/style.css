@@ -69,7 +69,7 @@ main {
   display: flex;
   flex-direction: row;
   background-color: black;
-  height: 60vh;
+  height: 82vh;
 }
 
 .main-section-image {
@@ -92,7 +92,7 @@ main {
 
 #arrow-left {
   position: absolute;
-  top: 150px;
+  top: 200px;
   left: 10px;
   font-size: 2rem;  
   border: 1px solid lightblue;
@@ -101,7 +101,7 @@ main {
 
 #arrow-right {
   position: absolute;
-  top: 150px;
+  top: 200px;
   right: 10px;
   font-size: 2rem;  
   border: 1px solid lightblue;
@@ -141,6 +141,10 @@ h3 {
   margin-left: 5%;
 }
 
+.original-title {
+  color: white;
+}
+
 .div-details {
   margin-bottom: 5%;
 }
@@ -148,18 +152,18 @@ h3 {
 footer {
   height: 25vh;
 
-  /* background-image: url("https://image.tmdb.org/t/p/w533_and_h300_bestv2/3cyjYtLWCBE1uvWINHFsFnE8LUK.jpg");
+  background-image: url("https://image.tmdb.org/t/p/w533_and_h300_bestv2/3cyjYtLWCBE1uvWINHFsFnE8LUK.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 400px 175px; */
+  background-size: 300px 150px;
   background-color: black;
 }
-
+/* 
 footer > img {
   margin-left: 30%;
   height: max-content;
   width: max-content;
-}
+} */
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
